@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public Text titleText;        // タイトル
     public Text instructionText;  //「左」「右」
     public Text resultText;       //リザルト
-    public Text progressText;     //現在の回数（例: 3 / 10）
+    public Text progressText;     //現在の回数
     public Button startButton;    //スタートボタン
 
     [SerializeField] int totalRounds = 10; //ラウンド数
